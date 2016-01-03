@@ -1,4 +1,4 @@
-h1{
+h1 {
 	text-align: center;
 	color: #FFF	
 
@@ -7,5 +7,10 @@ body {
 	background: url("http://www.rl5photography.com/img/s/v-3/p1121164526-3.jpg");
 	background-size: cover;
 
-
+}
+p {
+	color: #fff
+}
+ul {
+	color: #FFF
 }
