@@ -4,7 +4,7 @@ h1 {
 
 }
 body {
-	background: url("images/seattle_skyline.jpg");
+	background: url("/images/seattle_skyline.jpg");
 	background-size: cover;
 
 }
