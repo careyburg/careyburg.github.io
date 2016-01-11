@@ -1,16 +1,43 @@
 h1 {
 	text-align: center;
-	color: #FFF	
+	color: #FFF;	
 
 }
+#slogan {
+	font-style: italic;
+	text-align: center;
+	color: #fff;
+}
+
 body {
-	background: url("../images/seattle_skyline.jpg");
+	background: url("../images/phone_computer.jpeg");
 	background-size: cover;
 
 }
-p {
-	color: #fff
+.text {
+	color: #fff;
 }
+
 ul {
-	color: #FFF
+	color: #FFF;
 }
+/*--------------------------------------homepage menus
+*/
+#homepage {
+	text-align: center;
+	color:#C9D6FF;
+}
+#th_description {
+	text-align: center;
+	color: #fff;
+	
+}
+
+#th_description_list {
+	text-align: center;
+	list-style: none;
+
+}
+/*-----------------------------------------
+*/
+
