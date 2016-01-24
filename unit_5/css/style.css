@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+header {
+	background-color: #ADFFF0;
+	padding-top: 3.8em;
+}
+
+h1 {
+	font-family: 'Bitter', serif;
+	font-size; 3em
+	text-align: center;
+	color: #FFF;	
+
+}
+
+h3 {
+	font-family: 'Bitter', serif;
+	font-size: 32px;
+	text-align: center;
+	color:#C9D6FF;
+}
+
+
+p {
+	font: 'Raleway', sans-serif;
+	color: #fff;
+	margin-bottom: 0;
+	text-align: center;
+	width:50em;
+	line-height: 150%;
+}
+
+
+
+nav	{
+	border: 3px solid, white;
+    width: 470px;
+    margin: auto;
+    word-spacing: .4em;
+
+}
+
+nav a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+
+}
+
+
+body {
+	margin: auto;
+
+}
+
+
+ul {
+	font-family: 'Raleway', serif;
+	color: #FFF;
+}
+
+
+#slogan {
+	font-family: 'Bitter', sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 2em;
+}
+
+#main_image {
+	background: url("../images/phone_computer.jpeg");
+	background-size: cover;
+}
+
+.wrapper {
+	border: 5px solid, black;
+	width: 800px;
+	margin: auto;
+}
+
+.3_column p{
+	font-family: 'Bitter', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: #fff;
+	width: 45em;
+
+}
+/*.text {
+	font-family: 'Kreon', serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin: 1.5em;
+	color: #fff;*/
+-----------------------------------------
+
+
+
