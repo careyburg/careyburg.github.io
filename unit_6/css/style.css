@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -31,6 +37,7 @@ h3 {
 	font-size: 1.5em;
 	text-align: center;
 	color:#C9D6FF;
+	padding:40px 0 15px 0;
 }
 
 h4{
@@ -57,7 +64,7 @@ nav {
 	list-style: none;
 	display: block;
 	float: right;
-	background-color: #e8c66a;
+	background-color: gray;
 	font-size: 1em;
 	margin: 0;
 	padding: 10px;
@@ -111,13 +118,14 @@ footer {
 	margin: auto;
 }
 
-.clearfix:after{
-	visibility: hidden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 #slogan {
@@ -146,6 +154,7 @@ footer {
 .col-3 p{
 	float:left;
 	width:300px;
+
 }
 
 #top-half{
