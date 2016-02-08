@@ -54,6 +54,7 @@ h4{
 	font-size: 20px;
 	text-align: center;
 	color:#C9D6FF;
+	padding-top: 2em;
 }
 
 p {
@@ -94,6 +95,7 @@ ul {
 	margin-right: 21px;
     line-height: 1.5em;
     list-style:inherit;
+    padding-top: 38px;
 }
 
 footer {
@@ -165,26 +167,26 @@ footer {
 }
 
 .col-2{
-	background-color: #FFE2B8;
 	float:left;
-	position: relative;
-	width:30em;
+	width:33.7em;
+
 }
+
 
 #phone {
 	position: relative;
-	top: 90px;
+	top: 38px;
 	border: 3px black solid;
-	width: 100%;
+	width: 90%;
 
 }
-#guy_scrolling {
+/*#guy_scrolling {
 	position: relative;
 	border: 3px black solid;
 	width: 75%;
 	margin-left: 20px;
 }
-
+*/
 /*---------------->hover link examples<--------------------------
 */
 /*a:link { 
