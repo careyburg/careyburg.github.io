@@ -121,14 +121,7 @@ footer {
     margin: 0px;
 }
 
-/*#slogan {
-	font-family: 'Bitter', sans-serif;
-	font-size: 2em;
-	color: #000;
-	padding: .8em 0;
-	margin: auto;
 
-}*/
 
 .wrapper {
 /*	border: 5px solid black;
@@ -163,8 +156,8 @@ footer {
 }
 
 #top-half{
-	background-color: purple;
-}
+	background-color: #370e8a;
+	}
 
 .col-2{
 	float:left;
