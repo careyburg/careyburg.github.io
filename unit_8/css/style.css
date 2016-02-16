@@ -112,10 +112,10 @@ ul {
 	font-size: 1.2em;
 	color: #000;
 	float:right;
-	margin-right: 1em;
+	margin-right: 5%;
     line-height: 1.5em;
     list-style:inherit;
-    padding-top: 3em;
+    padding-top: 5%;
 }
 
 footer {
@@ -160,9 +160,8 @@ footer p{
 
 .col-3 {
 	width: 29%;
-    margin: 1.4em;
-	margin-bottom: 3em;
-	padding-bottom: 2em;
+    margin: 2%;
+	margin-bottom: 5%;
 	float: left;
 }
 
