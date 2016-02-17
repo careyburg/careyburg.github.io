@@ -8,9 +8,8 @@
 }
 
 header {
-	background-color: #FFED74;
-	width: 85%;
-    margin: auto;
+	background-color: #FFF;
+	width: 95%;
 
 }
 
@@ -27,10 +26,10 @@ main {
 h1 {
 	font-family: 'Raleway', sans-serif;
 	font-weight:700;
-	font-size: 3em;
+	font-size: 4em;
 	text-align: center;
 	color: #FFF;	
-	padding-top: 3em;
+	padding-top: 1.5em;
 
 }
 
@@ -38,8 +37,8 @@ h2 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 2em;
-	color: #7F7371;
-	padding: .8em 0;
+	color: #FFF;
+	padding: 1.8em 0 2em;
 
 }
 
@@ -54,8 +53,8 @@ h3 {
 
 h4{
 	font-family: 'Raleway', sans-serif;
-/*	font-family: 'Bitter', sans-serif;
-*/	font-size: 1.3em;
+	font-weight:700;
+	font-size: 1.3em;
 	text-align: center;
 	color:#C9D6FF;
 	padding-top: 2em;
@@ -64,7 +63,7 @@ h4{
 p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1em;
-	color: #000;
+	color: #FFF;
 	margin-bottom: 0;
 	text-align: center;
 	width:50em;
@@ -84,6 +83,7 @@ nav {
 
 nav a {
 	font-family: 'Raleway', sans-serif;
+	color:#C9D6FF;
 	display: inline-block;
 	text-decoration: none;
 	font-size: 1.2em;
@@ -94,7 +94,7 @@ nav a {
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: #C9D6FF
 	}
 a:visited { 
 	font-weight: bold; 
@@ -110,7 +110,7 @@ a:hover, a:focus, a:active {
 ul {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.2em;
-	color: #000;
+	color: #FFF;
 	float:right;
 	margin-right: 5%;
     line-height: 1.5em;
@@ -122,7 +122,6 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	font-size: .5em;
 	margin: auto;
-	background-color: #FF957E;
 	padding: 1em;
 
 }
@@ -131,20 +130,11 @@ footer p{
 	margin: auto;
 }
 
-/*#main_image {
-	background: url("../images/phone_computer.jpeg");
-	background-size: cover;
-}*/
-
-
-
-
 
 .wrapper {
-	border: .15em solid black;
-	width: 85%;
+	width: 95%;
 	margin: auto;
-	background-color: #FFF;
+	background-color: #13032D;
 }
 
 
@@ -160,32 +150,14 @@ footer p{
 
 .col-3 {
 	width: 29%;
-    margin: 2%;
-	margin-bottom: 5%;
+    margin: 2% 2% 5%;
 	float: left;
 }
 
 .col-3 p{
-	float:left;
 	width:100%;
 	font-weight: 400;
 
-}
-
-#logo {
-	width: 9%;
-    float: left;
-    padding: 1em;
-}
-
-#top-half{
-	background:url("../images/brickwall_@2X.png") repeat fixed;
-/*	background-size: cover;
-*//*	background-color: #370e8a;
-*/	}
-
-#bottom-half {
-	padding-bottom:3em;
 }
 
 .col-2{
@@ -195,33 +167,102 @@ footer p{
 }
 
 
+#header-image {
+	background:url("../images/seattle.jpeg") center fixed;
+	background-size: cover;
+	border: white solid .1em;
+}
+
+#logo {
+	width: 9%;
+    float: left;
+    padding: 1em;
+    margin-left:2%;
+}
+
+#top-half{
+	padding-bottom: 3%;
+    border-bottom: white solid .1em;
+	}
+
+#bottom-half {
+	padding-top:5%;
+}
+
+
 #phone {
 	border: .2em black solid;
-	width: 90%;
-    margin: 3em;
-
+	width: 34%;
+	position: absolute;
+	margin-left: 5%
 }
-/*#guy_scrolling {
+
+#guy_scrolling {
 	position: relative;
 	border: 3px black solid;
-	width: 75%;
-	margin-left: 20px;
+	width: 65%;
+	margin: 34% 45%;
 }
 
-___________________ media queries__________________*/
+___________________ media queries__________________
 
-@media screen only and (max-width: 1210px){
+@media only screen and (max-width: 1210px){
 
-.col-3, .col-3 p {
+
+.col-3 {
+	width: 46%;
+}
+
+a:last-of-type .col-3 {
 	float: none;
+	width: 80%;
+	margin: 2% auto 5%;
+	clear: both;
 }
-
 .col-2 {
 	float: none;
 }
 
 }
 
+@media only screen and (max-width: 850px){
+
+
+header{
+	width:100%;
+}
+
+
+nav {
+	float:none;
+
+}
+
+ul{
+	float:none;
+	list-style: none;
+	text-align: center;
+}
+
+.wrapper{
+	width:95%;
+}
+.col-2{
+	float:none;
+	width:100%;
+}
+
+#logo {
+	float:none;
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#guy_scrolling {
+	width:33%;
+	margin:17%;
+}
 
 
 /*@media screen only and (min-width: 500px
