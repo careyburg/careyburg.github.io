@@ -44,6 +44,7 @@ h2 {
 
 h3 {
 	font-family: 'Raleway', sans-serif;
+	font-weight:700;
 /*	font-family: 'Bitter', serif;
 */	font-size: 1.5em;
 	text-align: center;
@@ -91,16 +92,15 @@ nav a {
 	
 }
 
-a:link { 
+/*a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #C9D6FF
-	}
-a:visited { 
-	font-weight: bold; 
+	}*/
+/*a:visited { 
 	text-decoration: none; 
-	color: #D4CDDC;
-	}
+	color: #fff;
+	}*/
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
 	color: #9685BA;
@@ -191,15 +191,15 @@ footer p{
 
 
 #phone {
-	border: .2em black solid;
+	border: .2em white solid;
 	width: 34%;
 	position: absolute;
 	margin-left: 5%
 }
 
-#guy_scrolling {
+#television {
 	position: relative;
-	border: 3px black solid;
+	border: 3px white solid;
 	width: 65%;
 	margin: 34% 45%;
 }
