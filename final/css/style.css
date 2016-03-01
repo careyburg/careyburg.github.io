@@ -114,7 +114,7 @@ ul {
 	float:right;
 	margin-right: 5%;
     line-height: 1.5em;
-    list-style:inherit;
+    list-style:none;
     padding-top: 5%;
 }
 
@@ -195,14 +195,15 @@ footer p{
 	border: .2em white solid;
 	width: 34%;
 	position: absolute;
-	margin-left: 5%
+	left: 5%;
+	position: absolute;
 }
 
 #television {
 	position: relative;
 	border: 3px white solid;
-	width: 65%;
-	margin: 34% 45%;
+	width: 30%;
+    margin: 175px 25%;
 }
 
 ___________________ media queries__________________
@@ -222,6 +223,8 @@ a:last-of-type .col-3 {
 }
 .col-2 {
 	float: none;
+	position: static;
+	margin:auto;
 }
 
 }
