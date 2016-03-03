@@ -112,10 +112,15 @@ ul {
 	font-size: 1.2em;
 	color: #FFF;
 	float:right;
-	margin-right: 5%;
+	margin-right: 10%;
     line-height: 1.5em;
     list-style:none;
     padding-top: 5%;
+}
+
+li {
+    line-height: 2em;
+
 }
 
 footer {
@@ -147,6 +152,11 @@ footer p{
     height: 0;
 }
 
+.col-2 {
+	position:relative;
+	width: 50%;
+	float:left;
+}
 
 .col-3 {
 	width: 29%;
@@ -160,13 +170,22 @@ footer p{
 
 }
 
-.col-2:nth-of-type(2) {
+
+#top-half span {
+	display: block;
+	color:white;
+	font-size: 3em; 
+	text-align: center;
+	width: 100%;
+}
+
+/*.col-2:nth-of-type(2) {
 	float:left;
 	width:50%;
 	left:50%;
 	position: relative;
 }
-
+*/
 
 #header-image {
 	background:url("../images/seattle.jpeg") center fixed;
@@ -189,6 +208,7 @@ footer p{
 #bottom-half {
 	padding-top:5%;
 }
+
 
 
 #phone {
